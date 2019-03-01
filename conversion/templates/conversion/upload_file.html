@@ -1,0 +1,13 @@
+{% extends 'conversion/base.html' %}
+
+{% load crispy_forms_tags %}
+{%block p%}{{project.project_title}}'s files{% endblock %}
+{%block button%}<a class="btn btn-primary btn-lg" href="{% url 'create-project'%}" role="button">My Profile &raquo;</a>{% endblock %}
+{% block project %}
+  <h2>Upload File</h2>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit" class="btn btn-primary">Upload File</button>
+  </form>
+{% endblock %}
