@@ -28,20 +28,20 @@ def create_project(request):
         if form.is_valid():
             form.save()
             context = {
-                'projects': Project.objects.all(),
+                'projects': Project.objects.filter(author=request.user),
                 'form': ProjectForm(),
             }
             return render(request, 'conversion/create_project.html', context)
-
     context = {
-        'projects': Project.objects.all(),
+        'projects': Project.objects.filter(author=request.user),
         'form': ProjectForm(),
     }
     return render(request, 'conversion/create_project.html', context)
 
 
-def file_list(request):
-    files = File.objects.all()
+@login_required
+def file_list(request, pk):
+    files = File.objects.filter(project=pk)
     return render(request, 'conversion/file_list.html', {
         'files': files
     })
@@ -52,7 +52,12 @@ def upload_file(request):
         form = FileForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            return redirect('file_list')
+            context = {
+                'projects': Project.objects.filter(author=request.user),
+                'form': ProjectForm(),
+            }
+            messages.success(request, 'Votre fichier à été ajouté au Projet')
+            return render(request, 'conversion/create_project.html', context)
     else:
         form = FileForm()
     return render(request, 'conversion/upload_file.html', {

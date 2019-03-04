@@ -38,9 +38,14 @@
               <div class="jumbotron">
                 <div class="container">
                     {%block content%}
-                    <h1 class="display-3">Hello, User!</h1>
-                    <p>{%block p%}This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.{%endblock%}</p>
+                    {% if user.is_authenticated %}
+                    <h1 class="display-3">Hello, {{user.username}}!</h1>
+                    {% else %}
+                    <h1 class="display-3">Hello !</h1>
+                    {% endif %}
+                    <p>{%block p%}A cloud-based service that allows you to synthetize your files using VivadoHLS {%endblock%}</p>
                     <p>{%block button%}<a class="btn btn-primary btn-lg" href="{% url 'create-project'%}" role="button">My Profile &raquo;</a>{%endblock button%}</p>
+
                     {% endblock %}
                 </div>
               </div>

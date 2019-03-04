@@ -24,7 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('conversion.urls'), name='home'),
     path('projects/', conv_views.create_project, name='create-project'),
-    path('files/', conv_views.file_list, name='file_list'),
+    path('files/<int:pk>/', conv_views.file_list, name='file_list'),
     path('files/upload/', conv_views.upload_file, name='upload_file'),
     path('files/<int:pk>/', conv_views.delete_file, name='delete_file'),
     path('register/', conv_views.register, name='register'),

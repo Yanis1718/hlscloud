@@ -4,6 +4,14 @@
 
 {%block title%}Create Project{% endblock%}
     {%block content%}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-{{ message.tags }} alert-dismissable">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
         <div class="container">
             <h1>New Project</h1>
                 <form method = "post">
@@ -27,7 +35,7 @@
                                 <h5 class="card-title">{{project.project_title}}</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">{{project.author}}</h6>
                                 <p><small class="text-muted">{{ project.date_posted }}</small></p>
-                                <a href="{% url 'file_list'%}" class="btn btn-primary">View Files</a>
+                                <a href="{% url 'file_list' project.pk %}" class="btn btn-primary">View Files</a>
                               </div>
                             </div>
                         </div>
