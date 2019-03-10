@@ -4,14 +4,35 @@
     <list default="true" id="a1d4973c-b51e-4b7e-bc0a-5c74ee3315d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conversion/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/conversion/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conversion/templates/conversion/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/conversion/templates/conversion/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conversion/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/conversion/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conversion/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/conversion/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conversion/templates/conversion/create_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/conversion/templates/conversion/create_project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conversion/templates/conversion/file_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/conversion/templates/conversion/file_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conversion/templates/conversion/upload_file.html" beforeDir="false" afterPath="$PROJECT_DIR$/conversion/templates/conversion/upload_file.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conversion/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/conversion/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hls/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hls/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/000000066_-_PFE.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/00_BE_simu_2018_Partie_1_v1.0.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/00_BE_simu_2018_Partie_1_v1.0_RSfoJtK.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3-Maes-Tmax-530.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3-Maes-Tmax-530_1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3-Maes-Tmax-530_1_MsmsdXr.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3-Maes-Tmax-530_1_nxNmonu.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3-Maes-Tmax-530_6C7ksmx.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3-Maes-Tmax-530_7xAHEnY.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3-Maes-Tmax-530_A4h9Emj.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3-Maes-Tmax-530_D94niww.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3-Maes-Tmax-530_NDlaRU5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3-Maes-Tmax-530_jmChscW.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3-Maes-Tmax-530_qfsMszv.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/4-Avis_de_concours_sur_titres_IA_2018_JORF_du_20_avril_2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/4-Avis_de_concours_sur_titres_IA_2018_JORF_du_20_avril_2018_3381byT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Database2.accdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Finance_App_UI_Kit.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/brigitte-tohm-283974-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/file/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/frenchversion.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Étudiants.accdt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,35 +44,38 @@
     <session id="575237086">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="26" />
-          <entry key="py" value="39" />
+          <entry key="html" value="34" />
+          <entry key="png" value="2" />
+          <entry key="py" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="26" />
-          <entry key="Python" value="39" />
+          <entry key="HTML" value="34" />
+          <entry key="Image" value="2" />
+          <entry key="Python" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="4233" />
-          <entry key="py" value="8694" />
+          <entry key="html" value="4494" />
+          <entry key="py" value="14378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4233" />
-          <entry key="Python" value="8694" />
+          <entry key="HTML" value="4494" />
+          <entry key="Python" value="14378" />
         </counts>
       </usages-collector>
     </session>
@@ -61,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hls/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="242">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="71" />
               <folding>
                 <element signature="e#627#659#0" expanded="true" />
               </folding>
@@ -70,23 +94,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conversion/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+            <state relative-caret-position="412">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
               <folding>
-                <element signature="e#0#64#0" expanded="true" />
+                <element signature="e#1#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/create_project_converted.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conversion/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="23" selection-end-column="61" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
                 <marker date="1551625214758" expanded="true" signature="371:376" ph="..." />
@@ -97,37 +130,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conversion/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/file_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/conversion/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/register.html">
+        <entry file="file://$PROJECT_DIR$/conversion/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,25 +165,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/create_project.html">
+        <entry file="file://$PROJECT_DIR$/conversion/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="646">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1552032779664" expanded="true" signature="621:626" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conversion/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1551447193965" expanded="true" signature="400:405" ph="..." />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/conversion/migrations/0013_auto_20190308_0913.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -177,6 +196,11 @@
     <findStrings>
       <find>&lt;div class=&quot;container&quot;&gt;</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Yanis Berkouk\Desktop\3A TSE\6.1\hls\media</dir>
+      <dir>C:\Users\Yanis Berkouk\Desktop\3A TSE\6.1\hls\hls_output\hlsSolution\syn</dir>
+      <dir>C:\Users\Yanis Berkouk\Desktop\3A TSE\6.1\hls\hls_output</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -188,22 +212,25 @@
         <option value="$PROJECT_DIR$/conversion/templates/conversion/file.html" />
         <option value="$PROJECT_DIR$/conversion/templates/conversion/login.html" />
         <option value="$PROJECT_DIR$/conversion/templates/conversion/register.html" />
-        <option value="$PROJECT_DIR$/hls/settings.py" />
         <option value="$PROJECT_DIR$/conversion/urls.py" />
-        <option value="$PROJECT_DIR$/conversion/admin.py" />
-        <option value="$PROJECT_DIR$/conversion/models.py" />
-        <option value="$PROJECT_DIR$/hls/urls.py" />
         <option value="$PROJECT_DIR$/conversion/templates/conversion/file_list.html" />
-        <option value="$PROJECT_DIR$/conversion/views.py" />
-        <option value="$PROJECT_DIR$/conversion/templates/conversion/create_project.html" />
         <option value="$PROJECT_DIR$/conversion/templates/conversion/upload_file.html" />
         <option value="$PROJECT_DIR$/conversion/templates/conversion/base.html" />
         <option value="$PROJECT_DIR$/conversion/forms.py" />
+        <option value="$PROJECT_DIR$/conversion/templates/conversion/create_project.html" />
+        <option value="$PROJECT_DIR$/conversion/templates/conversion/download_project.html" />
+        <option value="$PROJECT_DIR$/hls/settings.py" />
+        <option value="$PROJECT_DIR$/conversion/migrations/0013_auto_20190308_0835.py" />
+        <option value="$PROJECT_DIR$/conversion/models.py" />
+        <option value="$PROJECT_DIR$/hls/urls.py" />
+        <option value="$PROJECT_DIR$/conversion/admin.py" />
+        <option value="$PROJECT_DIR$/conversion/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-12" />
+    <option name="x" value="214" />
+    <option name="y" value="57" />
     <option name="width" value="1527" />
     <option name="height" value="1032" />
   </component>
@@ -229,12 +256,6 @@
               <item name="hls" type="b2602c69:ProjectViewProjectNode" />
               <item name="hls" type="462c0819:PsiDirectoryNode" />
               <item name="conversion" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hls" type="462c0819:PsiDirectoryNode" />
-              <item name="conversion" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -253,6 +274,12 @@
               <item name="hls" type="b2602c69:ProjectViewProjectNode" />
               <item name="hls" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hls" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="user_admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,40 +316,35 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15341812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31319556" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32972974" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3291815" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15341812" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32972974" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/conversion/forms.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/profile.html" />
@@ -336,102 +358,43 @@
     <entry file="file://$PROJECT_DIR$/conversion/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/conversion/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hls/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conversion/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/conversion/migrations/0004_auto_20190228_1707.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hls/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1075">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conversion/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/conversion/migrations/0005_project_user.py">
+    <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="799">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conversion/admin.py">
+    <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/download_project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/upload_file.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conversion/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/file_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="279">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/create_project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="323">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conversion/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1551447193965" expanded="true" signature="400:405" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/hls/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/conversion/migrations/0011_convertedfolder.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hls/urls.py">
+    <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/upload_file.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -442,24 +405,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conversion/views.py">
+    <entry file="file://$PROJECT_DIR$/conversion/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state>
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
+            <element signature="e#49#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/migrations/0005_project_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myhls_models.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp_models.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hls/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/migrations/0013_auto_20190308_0835.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/migrations/0012_auto_20190307_1541.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/migrations/0013_auto_20190308_0913.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1552032779664" expanded="true" signature="621:626" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="71" />
+          <folding>
+            <element signature="e#627#659#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conversion/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="23" selection-end-column="61" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
             <marker date="1551625214758" expanded="true" signature="371:376" ph="..." />
             <marker date="1551625214758" expanded="true" signature="506:511" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/create_project_converted.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/templates/conversion/file_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversion/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -17,7 +17,6 @@
                 <form method = "post">
                     <div class="form-row">
                         {% csrf_token %}
-
                             {{ form|crispy}}
                         <button type="submit" class="btn btn-success">Submit</button>
                     </div>
@@ -35,7 +34,11 @@
                                 <h5 class="card-title">{{project.project_title}}</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">{{project.author}}</h6>
                                 <p><small class="text-muted">{{ project.date_posted }}</small></p>
-                                <a href="{% url 'file_list' project.pk %}" class="btn btn-primary">View Files</a>
+                                <a href="{% url 'file_list' project.pk %}" class="btn btn-outline-primary">View Files</a>
+                                    <form method="post" action="{% url 'convert_file' %}">
+                                        {% csrf_token %}
+                                        <button type="submit" class="btn btn-primary">Launch HLS</button>
+                                    </form>
                               </div>
                             </div>
                         </div>

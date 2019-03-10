@@ -1,11 +1,14 @@
-from django.shortcuts import render, redirect, get_object_or_404
-from .forms import ProjectForm, FileForm
-from .models import Project, File
-from django.contrib.auth.models import User
-from .forms import UserRegisterForm
-from django.contrib.auth.forms import UserCreationForm
+
+import os
+import shutil
+
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.forms import UserCreationForm
+from django.shortcuts import render, redirect
+
+from .forms import ProjectForm, FileForm
+from .models import Project, File, ConvertedFolder
 
 
 def register(request):
@@ -70,6 +73,24 @@ def delete_file(request, pk):
         file = File.objects.get(pk=pk)
         file.delete()
     return redirect('file_list')
+
+
+def convert_project(request):
+    if request.method == 'POST':
+        base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        media_root = os.path.join(base, 'media')
+        source = os.path.join(media_root, 'hls_output.zip')
+        folder = os.path.basename(source)
+        output_folder = ConvertedFolder(folder=folder)
+        output_folder.save()
+
+        context = {
+                'projects': Project.objects.filter(author=request.user),
+                'form': ProjectForm(),
+            }
+        messages.success(request, 'Votre projet a été converti')
+
+    return render(request, 'conversion/create_project_converted.html', context)
 
 
 def index(request):
